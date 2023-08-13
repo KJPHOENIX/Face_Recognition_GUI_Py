@@ -67,7 +67,7 @@ class App(tk.Tk):
     
     def reco(self):
         sfr = SimpleFacerec()
-        sfr.load_encoding_images("F:/vscode/")
+        sfr.load_encoding_images("F:/vscode/") #file location
         cap = cv2.VideoCapture(0)
 
 
